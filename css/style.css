@@ -1,0 +1,75 @@
+body {
+	background: url(../img/bg-cats.png) repeat fixed;
+}
+.wrap {
+	width: 894px;
+	margin: auto;
+	padding: 10px;
+}
+header, section {
+	background: white;
+	border: 2px solid black;
+	-webkit-box-shadow: 4px 7px 12px 0 rgba(0, 0, 0, 0.75);
+	-moz-box-shadow:    4px 7px 12px 0 rgba(0, 0, 0, 0.75);
+	box-shadow:         4px 7px 12px 0 rgba(0, 0, 0, 0.75);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+header {
+	position: relative;
+	clear: both;
+	height: 300px;
+	width: 890px;
+}
+.photo {
+	float: left;
+	height: 300px;
+}
+.portrait {
+	height: 300px;
+	margin: 0;
+}
+.bg-container {
+	float: left;
+	position: absolute;
+	left: 230px;
+	width: 660px;
+	height: 300px;
+	opacity: 0.35;
+}
+.bg-wordpress {
+	width: 660px;
+	height: 300px;
+}
+.main_info {
+    float: left;
+	margin: 8px 0 0 10px;
+	height: 300px;
+	opacity: 2.0;
+	font: 16px/10px bold Helvetica, sans-serif;
+}
+h1 {
+    margin: 0;
+	font: 35px/50px italic Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+section {
+    clear: both;
+	margin: 20px 0;
+}
+section :last-child {
+	margin-bottom: 10px;
+}
+h2 {
+	margin: 10px 0 20px 10px;
+}
+section p, section ul {
+	margin: 0 0 2px 35px;
+}
+ul {
+	margin: 0;
+}
+li {
+	list-style-type: square;
+}
